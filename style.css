@@ -15,10 +15,6 @@ h2{
     font-size: 32px;
 }
 
-#github{
-    height: 1cm;
-}
-
-#rebelLogo{
-    height: 41px;
+#logos{
+    align-self: center;
 }
