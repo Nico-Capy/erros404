@@ -10,6 +10,7 @@ body{
     justify-content: center;
     padding: 0 30px;
     text-align: center;
+    color: whitesmoke;
 }
 }
 
@@ -20,7 +21,7 @@ h1{
 h2{
     animation: fadeIn 4s;
 }
-}
+
 
 .center{
     padding: 41px;
