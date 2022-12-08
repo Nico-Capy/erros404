@@ -3,18 +3,41 @@ html{
     background-color:cornflowerblue;
 }
 
-h1{
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
     text-align: center;
-    margin-top: auto;
-    font-size: 48px;
+}
+}
+
+h1{
+    animation: fadeIn 3s;
 }
 
 h2{
-    text-align: center;
-    margin-top: auto;
-    font-size: 32px;
+    animation: fadeIn 4s;
+}
 }
 
-#rebellion{
-    color: black;
+.center{
+    padding: 41px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    animation: fadeIn 5s;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
