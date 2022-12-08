@@ -12,7 +12,6 @@ body{
     text-align: center;
     color: whitesmoke;
 }
-}
 
 h1{
     animation: fadeIn 3s;
@@ -41,4 +40,9 @@ h2{
     }
 }
 
-
+#drone{
+    position: fixed;
+    z-index: -1;
+    align-self: center;
+    animation: fadeIn 6s;
+}
