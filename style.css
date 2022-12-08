@@ -31,6 +31,17 @@ h2{
     animation: fadeIn 5s;
 }
 
+#drone{
+    position: fixed;
+    z-index: -1;
+    align-self: center;
+    animation: fadeIn 6s;
+}
+
+.logo{
+    color: whitesmoke;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -40,9 +51,3 @@ h2{
     }
 }
 
-#drone{
-    position: fixed;
-    z-index: -1;
-    align-self: center;
-    animation: fadeIn 6s;
-}
